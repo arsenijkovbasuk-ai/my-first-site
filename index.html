@@ -5,20 +5,29 @@
   <title>Обо мне</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <img src="images/avatar.jpg" alt="Фото Арсения" class="avatar">
-    <div>
-      <h1>Привет! Меня зовут Арсений</h1>
-      <p>Я изучаю код с помощью AI-инструментов и за 4 недели хочу собрать первое портфолио.</p>
+  <div class="window">
+    <div class="window-bar">
+      <span class="dot dot-1"></span>
+      <span class="dot dot-2"></span>
+      <span class="dot dot-3"></span>
+      <span class="window-title">about-me.html</span>
     </div>
-  </header>
+    <header class="hero">
+      <img src="images/avatar.jpg" alt="Фото Арсения" class="avatar">
+      <div>
+        <h1>Привет! Меня зовут Арсений</h1>
+        <p>Я изучаю код с помощью AI-инструментов и за 4 недели хочу собрать первое портфолио.</p>
+      </div>
+    </header>
+  </div>
 
   <main>
     <section>
+      <p class="eyebrow">// стек</p>
       <h2>Инструменты, которые я использую</h2>
       <div class="skills">
         <span class="skill">HTML</span>
@@ -32,6 +41,7 @@
     </section>
 
     <section>
+      <p class="eyebrow">// интересы</p>
       <h2>Чем мне интересно заниматься</h2>
       <ul>
         <li>Создавать сайты и веб-приложения</li>
@@ -41,6 +51,7 @@
     </section>
 
     <section>
+      <p class="eyebrow">// контакты</p>
       <p>Это моя самая первая страница в интернете — портфолио будет расти с каждым проектом.</p>
       <a href="mailto:arsenijkovbasuk@gmail.com" class="btn">Написать мне</a>
     </section>
@@ -48,7 +59,7 @@
 
   <footer>
     <p>&copy; 2026 Арсений</p>
-    <p class="visit-counter">Ты заходил на эту страницу <span id="visit-count">0</span> раз(а)</p>
+    <p class="visit-counter">~/about-me $ <span id="visit-count">0</span> визит(а) с этого устройства</p>
   </footer>
 
   <script src="script.js"></script>
